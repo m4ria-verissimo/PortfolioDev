@@ -176,22 +176,29 @@ p{
     
     
 }
-.container-habi i {
-  border:#343647 solid 1px;
-  border-radius: 7px;
-  background-color:#202230 ;
-  padding:20px;
-  font-size: 25px;
+
   
  
-}
+
 .container-habi  p{
-    text-align: center;
-    font-size: 12px;
+    
+    font-size: 11px;
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.card-habilidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:#343647 solid 1px;
+   border-radius: 6px;
+   background-color:#202230 ;
+   width: 55px;
+   height: 55px;
+  
+  text-align: center;
+}
 
 
 @media(max-width:1024px){
