@@ -221,7 +221,7 @@ p{
 .block{
    
     width:190px;
-    height: 220px;
+    height: 260px;
     text-align: center;
     background-color:#202230 ;
     color:#fff;
@@ -232,8 +232,8 @@ p{
 }
 .block p{
     color:#b0b0b0;
-    height: 43px;
-    margin: 8px 0;
+    height: 45px;
+    margin: 10px 0;
 }
 .block a{
     text-decoration: none;
