@@ -358,12 +358,12 @@ header{
        display: grid;
        grid-template-columns: repeat(2,1fr);
        justify-items: center;
-       gap:15px;
+       gap:10px;
      
 }
 .block{
     width: 100%;
-    max-width: 130px;
+    max-width: 160px;
  
 }
 .projetos img{
