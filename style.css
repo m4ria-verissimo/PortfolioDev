@@ -362,12 +362,12 @@ header{
      
 }
 .block{
-    width: 100%;
+    width: 96%;
     max-width: 140px;
     text-align: center;
 }
 .projetos img{
-    width: 100%;
+    width: 96%;
     height: 100px;
     text-align: center;
 
