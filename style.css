@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-     
+    
 
 }
 /*fgf*/ 
@@ -485,12 +485,12 @@ header{
        display: grid;
        grid-template-columns: repeat(2,1fr);
        justify-items: center;
-       gap:10px;
-     
+       gap:8px;
+      
 }
 .block{
     width: 100%;
-    max-width: 190px;
+    max-width: 160px;
     margin:auto;
  
 }
@@ -505,6 +505,15 @@ header{
      grid-template-columns: repeat(2, 1fr);
      border-right: none;
      gap:10px;
+}
+.cursos li{
+   border-right:#868282 1px solid;
+   width:160px ;
+   height: 150px;
+   color: #8B5CF6;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 .texto{
     margin-top: 3px;
