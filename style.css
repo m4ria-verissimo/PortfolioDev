@@ -254,7 +254,7 @@ p{
    padding: 5px;
    padding-left: 25px;
    padding-right: 25px;
-   margin-top: 5px;
+   margin-top: auto;
    border-radius: 5px;
    color:#fff;
    background-color: #343647;
@@ -343,6 +343,7 @@ p{
     width: 60vw;
     height: 20vh;
     margin:auto;
+    
    
     
 }
@@ -365,12 +366,13 @@ p{
 }
 .texto button{
     padding: 6px;
-    display: flex;
     background-color: #8B5CF6;
     color:#fff;
     border-radius: 9px;
-    justify-content: center;
+    
+   
 }
+
 .texto button:hover{
     background-color: #8a5cf673;
 }
@@ -546,6 +548,7 @@ header{
     display: flex;
     margin:auto;
     justify-content: center;
+    text-align: center;
     background-color: #8B5CF6;
     color:#fff;
     border-radius: 5px;
