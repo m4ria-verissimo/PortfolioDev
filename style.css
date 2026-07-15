@@ -48,7 +48,7 @@ span{
 .hero{
     background-color: #111111;
     padding:30px;
-    background-image: url(image0.jpeg);
+    background-image: url(img/image0.jpeg);
     background-size:cover;
     background-position: right center;
     width:100%;
