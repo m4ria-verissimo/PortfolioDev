@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+    outline: 1px red solid;
 
 }
 
@@ -9,7 +9,7 @@
 body{
    overflow-x: hidden;
    background-color: #11121A;
-    
+
     
 }
 header{
@@ -22,8 +22,13 @@ header{
 main{
     flex:1;
 }
-h1{
+h1 {
     font-size: 14px;
+}
+h3{
+    color:#fff;
+  
+   
 }
 nav{
     display:flex;
@@ -276,14 +281,11 @@ p{
    background-color:#202230 ;
    width: 55px;
    height: 55px;
-  text-align: center;
-  
-   
-    
+  text-align: center; 
 }
-#projetos-titulo h3{
+.projetos-titulo h3{
     background-color: #11121A;
-    color: red;
+    color:#fff;
     margin-bottom: 10px;
     margin-top: 15px;
     margin-left: 15px;
@@ -292,7 +294,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #11121A;
+   
     align-items: center;
     gap:15px;
     margin-left: 60px;
