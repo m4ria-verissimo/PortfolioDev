@@ -404,7 +404,7 @@ p{
 }
 footer{
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 10vh;
 }
 
 @media(max-width:1024px){
@@ -534,8 +534,8 @@ header{
     margin:auto;  
 }
 .texto input{
-    width: 15vw;
-    height: 4vh;
+    width: 18vw;
+    height: 3vh;
     margin-bottom: 3px;
     margin-right: 1px;
     background-color:#202230;
@@ -543,7 +543,7 @@ header{
     border-radius: 6px;
 }
 .texto textarea{
-    width:30vw;
+    width:37vw;
     height: 10vh;
     background-color:#202230;
     color:#fff;
@@ -561,5 +561,7 @@ header{
     font-size: 15px;
     padding-left: 20px;
     margin: auto;
+    gap:7px;
+
 }
 }
