@@ -257,7 +257,7 @@
              <p>Vamos conversar? Entre em contato comigo!</p>
 
            
-             <a href="mailto:duardaverissimo@email.com" class="redes-contato">  <i class="fa-regular fa-envelope"></i> duardaverissimo@gmail.com</a>
+             <a href="mailto:duardaverissimo@email.com" class="redes-contato">  <i class="fa-regular fa-envelope"></i>duardaverissimo@gmail.com</a>
             
             <br>
              <a href="https://github.com/m4ria-verissimo" target="_blank" class="redes-contato">  <i class="fa-brands fa-github"></i>m4ria-verissimo</a>
@@ -267,12 +267,14 @@
             
         </div>
         <div class="texto">
-            <input type="text" placeholder="Seu nome">
-            <input type="email" placeholder="Seu email">
+        <form id="form-contato">
+            <input type="text" placeholder="Seu nome" id="nome">
+            <input type="email" placeholder="Seu email" id="email">
             <br>
-            <textarea placeholder="Sua mensagem"></textarea>
+            <textarea placeholder="Sua mensagem" id="msg"></textarea>
             <br>
-            <button>Enviar mensagem</button>
+        
+            <button onsubmit="enviar()">Enviar mensagem</button>
         </div>
     </div>
         </section>
@@ -281,7 +283,11 @@
     <footer>
         <p>© Desenvolvido por Maria Eduarda Verissimo.💜</p>   
     </footer>
-    <script src="app.js"></script>
+    <script
+        type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+       <script src="app.js"></script>
+
 </body>
 </html>
     
