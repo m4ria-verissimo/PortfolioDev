@@ -9,8 +9,7 @@ function abrirmodal(){
   }
 }
 function enviar(){
-   const form = document.getElementById("form");
-   const modal = document.getElementById("modal-sucesso");
+   
    const nome=  document.getElementById("nome").value;
    const email = document.getElementById("email").value;
    const msg = document.getElementById("msg").value;
@@ -29,6 +28,13 @@ function enviar(){
             document.getElementById("modal-sucesso").style.display="none";
         }
 
+    const form = document.getElementById("form");
+
+      if(!form.checkValidity()){
+        form.reportValidity();
+        return;
+      }
+      const modal = document.getElementById("modal-sucesso");
    
 
 }
